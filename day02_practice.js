@@ -49,3 +49,6 @@ let fullName = firstName + lastName;
 console.log(fullName);
 my_age = 24;
 // 1name = 23
+
+//variable scoping
+var a = 
