@@ -140,3 +140,27 @@ console.log(b);
 /*multiline
 jakvaknv
 comment*/
+// ✅ Task 1: Declare variables for a person’s name, age, isStudent status, and favorite programming language.
+const personName = "Md Asif ul Haque";
+let personAge = 24;
+let isStudent = true;
+const favProgLan = "Javascript";
+
+// ✅ Task 2: Print the values to the console.
+console.log(personName);
+console.log(personAge);
+console.log(isStudent);
+console.log(favProgLan);
+// ✅ Task 3: Try reassigning values to let and const variables and observe errors.
+// personName = "Sabbir Hossain Probin";
+
+// ✅ Task 4: Create an object and an array, assign them to new variables, modify, and observe changes.
+
+let obj1 = {
+  name: "Asif",
+  age: 24,
+};
+console.log(obj1);
+let obj2;
+obj1 = obj2;
+console.log(obj1 === obj2);
