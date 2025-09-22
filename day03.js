@@ -80,3 +80,20 @@ console.log(1 / 0);
 // console.log(0 == false);
 
 //logical operator(&&,||,!)
+
+// console.log(true && true);
+// console.log(true && false);
+// console.log(true && false);
+// console.log(false && true);
+
+// console.log(true || false);
+// console.log(true || true);
+// console.log(false || false);
+// console.log(false || true);
+
+// console.log(!false);
+// console.log(!true);
+
+//
+console.log("Asif" && 23);
+console.log(23 && "Asif");
