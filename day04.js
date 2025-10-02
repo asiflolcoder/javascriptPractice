@@ -66,6 +66,6 @@
 //     console.log("Day is not found");
 // }
 
-let x = 2;
-const evenOdd = x % 2 == 1 ? "Odd" : "Even";
-console.log(evenOdd);
+// let x = 2;
+// const evenOdd = x % 2 == 1 ? "Odd" : "Even";
+// console.log(evenOdd);
