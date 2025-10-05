@@ -82,3 +82,75 @@ function createUser(name, age) {
 }
 
 //object methods - any function inside an object is called method
+
+// const profile = {
+//   name: "Md Asif",
+//   company: "Brain Station 23",
+//   message: function () {
+//     console.log(`Name:${this.name} and works at ${this.company}`);
+//   },
+// };
+// console.log(profile.name, profile.company);
+// profile.message();
+
+const student = {
+  name: "Asif",
+  id: 232311167,
+  address: {
+    city: "Rajshahi",
+    zip: 24231,
+    division: "Rajshahi",
+    country: "Bangladesh",
+  },
+  salary: undefined,
+};
+// console.log(student.name);
+// console.log(student.address.city);
+
+//if a property exists in an object - in operator
+
+// console.log(student.salary); //undefined
+
+// if (!student.salary) {
+//   console.log("property doesn't exists");
+// } else {
+//   console.log("property exists");
+// }
+
+// console.log("salary" in student);
+
+//looping an object
+// console.log(student.keys);
+// const keys = Object.keys(student);
+// console.log(keys);
+// for (let i = 0;i<)
+
+// for (let key in student) {
+//   // console.log(key);
+//   console.log(student[key]);
+// }
+
+// const obj = {
+//   val1: "Asif",
+//   age: 23,
+//   arr: [24, 2312, 22, 2424, 2, 4],
+//   obj: { a: "b" },
+// };
+
+// for (let key in obj) {
+//   // console.log(key);
+//   // console.log(obj[key]);
+//   // console.log(`${key}:${obj[key]}`);
+//   console.log(key + ":" + obj[key]);
+// }
+
+// console.log(Object.keys(student));
+
+// //is two objects equal
+// const obj1 = {
+//   name: "Asif",
+// };
+// const obj2 = {
+//   name: "Asif",
+// };
+// console.log(obj1 === obj2);
