@@ -71,8 +71,14 @@
 
 //factory function - returns a new object everytime it is called
 
-fucntion createUser(name,age){
+function createUser(name, age) {
   return {
-    this
-  }
+    name: name,
+    age: age,
+    greet: function () {
+      console.log(`name is ${this.name} and age is ${this.age}`);
+    },
+  };
 }
+
+//object methods - any function inside an object is called method
